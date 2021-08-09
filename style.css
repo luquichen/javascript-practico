@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 100vh;
+ }
+.contenedor{
+    width: 60%;
+    height: 80%;
+    background-color: darksalmon;
+    text-align: center;
+    display: inline;
+}
+.contenedor-formulario{
+    display: inline;
+    background-color: rgba(188, 143, 186, 0.301);
+    
+}
+
+.ficha{
+    width: 80%;
+    height: 50px;
+}

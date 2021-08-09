@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar img{
+    width: 200px;
+}
+.content-descuento{
+    width: 400px;
+    background-color: rgba(255, 99, 71, 0.829);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    text-align: center;
+}
+
+.content-descuento h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+
+}
+
+.content-descuento .entrada{
+    width: 100%;
+    background-color: rgba(255, 99, 71, 0.74);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+.content-descuento  button{
+    width: 100%;
+    background-color: tomato;
+    border:none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.content-descuento .content-form p{
+    font-size: 22px;
+}

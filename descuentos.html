@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./lucaslogo.png" alt="">
+            <h1>Porsentajes y Descuentos</h1>
+        </nav>
+    </header>
+    
+    <section class="content-descuento">
+        <h2>Formulario para calcular descuento</h2>
+        <form action="" class="content-form">
+            <input class="entrada" type="number" id="inputPrice" placeholder="Ingrese precio producto">
+            <input  class="entrada"type="number" id="inputDiscount" placeholder="Ingrese descuento">
+            <input  class="entrada"type="text" id="inputCupon" placeholder="Ingrese codigo de cupon" value=" ">
+            <button type="button" onclick="onClickButtonCalcular()"> Calcular precio con descuento</button>
+            <p id="resultPrice"></p>
+        </form>
+    </section>
+
+    <script src="./descuentos.js"></script>
+</body>
+</html>
